@@ -6,12 +6,14 @@ const handleFocus = ({ target }) => {
 }
 
 const handleFocusOut = ({ target }) => {
-    if()
+    if(target.value === '') {
   
   
   const span = target.previousElementSibling;
   span.classList.remove('spanActive');
+ } 
 }
+
 
 
 
